@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+"""
+Maintainer : Suraj Nair
+Created : 22 June, 2017
+Version: 1.0
+""
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
