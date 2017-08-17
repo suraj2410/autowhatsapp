@@ -21,7 +21,7 @@ def login():
 # Method that does the actual work of finding and sending messages
 def findanddeliver():
     # Finding Element based on the name of the contact
-    name_element = driver.find_element_by_xpath('//span[contains(text(),"Wiki")]')
+    name_element = driver.find_element_by_xpath('//span[contains(text(),"name of contact")]')
     name_element.click()
 
     # Going into an unlimited loop to send message after sleeping for mentioned number of seconds
